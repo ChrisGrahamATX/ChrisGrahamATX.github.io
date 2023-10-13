@@ -1,0 +1,113 @@
+body, h1, h2, h3, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+  margin-top: 80px; /* Need to adjust the value based on my header height */
+  }
+  /*In the above code, I added a margin-top to the body element to create space below the fixed header.*/ 
+
+header {
+  text-align: left;
+  position: fixed; /* Make the header fixed */
+  top: 0; /* Stick it to the top of the viewport */
+  width: 100%; /* Take the full width of the viewport */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font-weight: normal; /* Change to normal font weight */
+  font-size: 1.2em; /* Adjust the font size to your preference */
+  font-family: 'Roboto', sans-serif; /* Use the chosen font and fallback to sans-serif */
+  z-index: 100; /* Use a high z-index to make sure the header is above other content */
+}
+
+section {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  flex: 1; /*ensures that elements within a flex container share available space equally along the main axis, enabling a responsive and proportional layout.*/
+  padding: 20px;
+}
+.description {
+  flex: 1; /*ensures that elements within a flex container share available space equally along the main axis, enabling a responsive and proportional layout.*/
+  text-align: left;
+}
+.highlight {
+  text-align: left; /* Change to regular font weight */
+}
+.about {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex; 
+  text-align: left;
+}
+
+.MyUXSkillsArea {
+  background-color: #333;
+  color: #fff;
+}
+
+header h2 {
+  color: #333;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.work {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.h4button {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
